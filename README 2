@@ -1,0 +1,20 @@
+#Assignment 2
+# Zipping a Folder
+
+## Description
+This Python script compresses all files and subdirectories inside a specified folder into a `.zip` archive, preserving the folder structure.
+
+## How to Run
+1. Ensure Python is installed on your machine.
+2. Save the script as `zip_folder.py`.
+3. Run the script using the command:  
+   `python zip_folder.py`
+4. Enter the path to the folder you want to zip when prompted.
+
+## Expected Input/Output
+- **Input**: Path to the folder you want to zip.
+- **Output**: A `.zip` file named after the folder in the same directory.
+
+## Error Handling
+- The program checks if the folder exists and is a valid directory.
+- It handles permission errors and creates an empty zip file if the folder is empty.
